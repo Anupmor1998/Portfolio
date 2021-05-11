@@ -1,0 +1,14 @@
+.blog-heading {
+  color: #fca311;
+  text-align: center;
+  margin-top: 2rem;
+}
+#blogs {
+  padding: 70px 6rem 64px;
+}
+
+@media only screen and (max-width: 767px) {
+  #blogs {
+    padding: 70px 2rem;
+  }
+}

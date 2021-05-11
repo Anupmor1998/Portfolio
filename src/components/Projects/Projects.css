@@ -1,0 +1,48 @@
+.card {
+  /* height: auto !important; */
+  padding: 1rem;
+  box-shadow: 0 0 13px #fca311;
+  cursor: pointer;
+  border-radius: 20px;
+  background: transparent !important;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  position: relative !important;
+}
+.card:hover {
+  transform: scale(1.03, 1.03);
+}
+#project {
+  padding: 70px 6rem 64px;
+}
+.techstack {
+  color: #e9ecef;
+  font-size: 14px;
+}
+.project-title {
+  margin-bottom: 1rem;
+  font-size: 18px !important;
+}
+.project-desc {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+.button {
+  display: flex;
+  margin: 2rem auto;
+}
+
+.project-heading {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+  #project {
+    padding: 70px 2rem;
+  }
+  .card {
+    width: 100%;
+  }
+}

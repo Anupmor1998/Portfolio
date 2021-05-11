@@ -1,0 +1,33 @@
+.company {
+  color: #e9ecef !important;
+  font-size: 14px !important;
+}
+
+#achievements {
+  padding: 70px 6rem 64px;
+}
+.card-img {
+  margin: 0 auto 1rem;
+  width: 150px;
+  height: 80px;
+}
+
+.exp-heading {
+  color: #fca311;
+  text-align: center;
+  margin-top: 2rem;
+}
+.exp-title {
+  font-size: 18px !important;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .card-img {
+    width: 100px;
+    height: 80px;
+  }
+  #achievements {
+    padding: 70px 2rem;
+  }
+}
