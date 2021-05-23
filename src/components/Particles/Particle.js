@@ -11,10 +11,11 @@ function Particle() {
             value: 160,
             density: {
               enable: false,
+              value_area: 1500,
             },
           },
           size: {
-            value: 5,
+            value: 2,
             random: true,
           },
           move: {

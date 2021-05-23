@@ -28,7 +28,9 @@ function Projects() {
             <Heading className="project-title" as="h6" textAlign="center">
               {data.title}
             </Heading>
-            <Text className="project-desc">{data.description}</Text>
+            <Text noOfLines={3} className="project-desc">
+              {data.description}
+            </Text>
             <Spacer />
             <Text className="techstack">{data.techstack}</Text>
           </Box>

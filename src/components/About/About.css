@@ -1,5 +1,5 @@
 .about {
-  padding: 4rem 2rem 0;
+  padding: 1rem 2rem 0;
   display: flex;
 }
 .about-heading {
@@ -21,7 +21,23 @@
   padding: 4rem;
   width: 100%;
 }
-
+.tech {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 2rem;
+}
+.inner-tech {
+  margin: 0 auto 1rem;
+}
+.tech-title {
+  color: #fff;
+  text-align: center;
+}
+.tech-logo {
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+}
 @media only screen and (max-width: 767px) {
   .left-half-about {
     /* height: 50vh !important; */
@@ -46,5 +62,9 @@
   .about {
     padding: 1rem;
     flex-direction: column;
+  }
+  .tech {
+    grid-template-columns: auto auto;
+    /* margin-top: 2rem; */
   }
 }

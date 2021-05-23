@@ -6,7 +6,7 @@ import { AiFillEnvironment } from "react-icons/ai";
 import anup from "../../images/anup_pic.png";
 import {
   FaGithub,
-  FaGoogle,
+  // FaGoogle,
   FaInstagram,
   FaLinkedinIn,
   FaTwitter,
@@ -32,19 +32,42 @@ function Contact() {
             &nbsp; Surat, India
           </Text>
           <Box className="icon-box">
-            <span className="social">
+            <span
+              className="social"
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/anup-mor-81aa34183/",
+                  "_blank"
+                )
+              }
+            >
               <FaLinkedinIn className="social-icon" />
             </span>
-            <span className="social">
+            <span
+              className="social"
+              onClick={() =>
+                window.open("https://twitter.com/Anup_302", "_blank")
+              }
+            >
               <FaTwitter className="social-icon" />
             </span>
-            <span className="social">
+            {/* <span className="social">
               <FaGoogle className="social-icon" />
-            </span>
-            <span className="social">
+            </span> */}
+            <span
+              className="social"
+              onClick={() =>
+                window.open("https://github.com/anupmor1998", "_blank")
+              }
+            >
               <FaGithub className="social-icon" />
             </span>
-            <span className="social">
+            <span
+              className="social"
+              onClick={() =>
+                window.open("https://www.instagram.com/anupmor/", "_blank")
+              }
+            >
               <FaInstagram className="social-icon" />
             </span>
           </Box>

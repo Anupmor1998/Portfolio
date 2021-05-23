@@ -1,4 +1,4 @@
-import { Box, ChakraProvider } from "@chakra-ui/react";
+import { Box, ChakraProvider, Image } from "@chakra-ui/react";
 import "./App.css";
 import About from "./components/About/About";
 import HeroSection from "./components/HeroSection/HeroSection";
@@ -10,21 +10,40 @@ import Blog from "./components/Blog/Blog";
 import Contact from "./components/Contact/Contact";
 import Particle from "./components/Particles/Particle";
 import Footer from "./components/Footer/Footer";
+import { useEffect, useState } from "react";
+import loader from "./images/loader.svg";
+import Top from "./components/Top/Top";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 900);
+  });
   return (
     <ChakraProvider>
       <Box className="bg">
         <Particle />
-        <NavBar />
-        <HeroSection />
-        <About />
-        <Skills />
-        <Projects />
-        <Experience />
-        <Blog />
-        <Contact />
-        <Footer />
+        {loading ? (
+          <div className="loader-bg">
+            <Image className="loader" src={loader} />
+          </div>
+        ) : (
+          <div className="relative">
+            <Top />
+            <NavBar />
+            <HeroSection />
+            <About />
+            <Skills />
+            <Projects />
+            <Experience />
+            <Blog />
+            <Contact />
+            <Footer />
+          </div>
+        )}
       </Box>
     </ChakraProvider>
   );

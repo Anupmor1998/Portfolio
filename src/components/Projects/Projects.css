@@ -1,5 +1,4 @@
 .card {
-  /* height: auto !important; */
   padding: 1rem;
   box-shadow: 0 0 13px #fca311;
   cursor: pointer;
@@ -8,7 +7,6 @@
   color: #fff;
   width: 80%;
   margin: 0 auto;
-  position: relative !important;
 }
 .card:hover {
   transform: scale(1.03, 1.03);

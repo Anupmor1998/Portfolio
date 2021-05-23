@@ -1,6 +1,6 @@
 import cw from "../../images/cw.png";
 import stallion from "../../images/stallion.png";
-import sf from "../../images/script.jpg";
+import sf from "../../images/script.webp";
 
 export const expData = [
   {

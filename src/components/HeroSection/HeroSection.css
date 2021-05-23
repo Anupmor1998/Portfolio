@@ -7,7 +7,6 @@
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  position: relative;
 }
 
 .btn:hover {
@@ -19,7 +18,7 @@
 }
 
 .hero {
-  padding: 9rem 2rem 0;
+  padding: 6rem 2rem 0;
   display: flex;
 }
 

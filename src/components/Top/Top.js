@@ -24,7 +24,12 @@ const Top = () => {
 
   return (
     <button onClick={scrollToTop} id="topButton" title="Go to top">
-      <i className="fas fa-hand-point-up" aria-hidden="true"></i>
+      <span
+        className="iconify"
+        data-icon="fa-regular:hand-point-up"
+        data-inline="false"
+        color="white"
+      ></span>
     </button>
   );
 };

@@ -1,5 +1,5 @@
 #contact {
-  padding: 70px 6rem 0;
+  padding: 65px 6rem 0;
 }
 .contact-heading {
   color: #fca311;
@@ -21,17 +21,17 @@
 }
 .user-section {
   display: flex;
-  margin-top: 4rem;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
 }
 .user-info {
   width: 50%;
   margin: auto;
 }
 .user-img {
-  width: 300px;
+  width: 250px;
   border-radius: 50%;
-  height: 300px;
+  height: 250px;
   margin: 0 auto;
   background: #fca311;
   animation: pulse-animation 2s infinite;

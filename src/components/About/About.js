@@ -26,7 +26,73 @@ function About() {
             to solve real-world problems. Always looking for new ways to improve
             processes using ML and AI.
           </Text>
-          <Box></Box>
+          <Box className="tech">
+            <div className="inner-tech">
+              <span
+                className="iconify tech-logo"
+                data-icon="logos:firebase"
+                data-inline="false"
+              ></span>
+              <p className="tech-title">Firebase</p>
+            </div>
+            <div className="inner-tech">
+              <span
+                className="iconify tech-logo"
+                data-icon="logos:nodejs-icon"
+                data-inline="false"
+              ></span>
+              <p className="tech-title">Node Js</p>
+            </div>
+            <div className="inner-tech">
+              <span
+                className="iconify tech-logo"
+                data-icon="logos:javascript"
+                data-inline="false"
+              ></span>
+              <p className="tech-title">JavaScript</p>
+            </div>
+            <div className="inner-tech">
+              <span
+                className="iconify tech-logo"
+                data-icon="vscode-icons:file-type-html"
+                data-inline="false"
+              ></span>
+              <p className="tech-title">HTML</p>
+            </div>
+            <div className="inner-tech">
+              {" "}
+              <span
+                className="iconify tech-logo"
+                data-icon="vscode-icons:file-type-css"
+                data-inline="false"
+              ></span>
+              <p className="tech-title">CSS</p>
+            </div>
+            <div className="inner-tech">
+              <span
+                className="iconify tech-logo"
+                data-icon="logos:python"
+                data-inline="false"
+              ></span>
+              <p className="tech-title">Python</p>
+            </div>
+            <div className="inner-tech">
+              <span
+                className="iconify tech-logo"
+                data-icon="logos:git-icon"
+                data-inline="false"
+              ></span>
+              <p className="tech-title">Git</p>
+            </div>
+            <div className="inner-tech">
+              <span
+                className="iconify tech-logo"
+                data-icon="logos:tensorflow"
+                data-inline="false"
+              ></span>
+              <p className="tech-title">Tensorflow</p>
+            </div>
+          </Box>
         </Box>
       </Box>
     </Box>
