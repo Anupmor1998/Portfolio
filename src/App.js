@@ -1,18 +1,17 @@
-import { Box, ChakraProvider, Image } from "@chakra-ui/react";
-import "./App.css";
-import About from "./components/About/About";
-import HeroSection from "./components/HeroSection/HeroSection";
-import NavBar from "./components/NavBar/NavBar";
-import Projects from "./components/Projects/Projects";
-import Skills from "./components/Skills/Skills";
-import Experience from "./components/Experience/Experience";
-import Blog from "./components/Blog/Blog";
-import Contact from "./components/Contact/Contact";
-import Particle from "./components/Particles/Particle";
-import Footer from "./components/Footer/Footer";
-import { useEffect, useState } from "react";
-import loader from "./images/loader.svg";
-import Top from "./components/Top/Top";
+import { Box, ChakraProvider, Image } from '@chakra-ui/react';
+import './App.css';
+import About from './components/About/About';
+import HeroSection from './components/HeroSection/HeroSection';
+import NavBar from './components/NavBar/NavBar';
+import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
+import Experience from './components/Experience/Experience';
+import Blog from './components/Blog/Blog';
+import Contact from './components/Contact/Contact';
+import Particle from './components/Particles/Particle';
+import Footer from './components/Footer/Footer';
+import { useEffect, useState } from 'react';
+import Top from './components/Top/Top';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -24,14 +23,17 @@ function App() {
   });
   return (
     <ChakraProvider>
-      <Box className="bg">
+      <Box className='bg'>
         <Particle />
         {loading ? (
-          <div className="loader-bg">
-            <Image className="loader" src={loader} />
+          <div className='loader-bg'>
+            <Image
+              className='loader'
+              src='https://ik.imagekit.io/anupmor302/loader_D9KH1nidn.svg'
+            />
           </div>
         ) : (
-          <div className="relative">
+          <div className='relative'>
             <Top />
             <NavBar />
             <HeroSection />

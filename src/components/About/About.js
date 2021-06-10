@@ -1,21 +1,24 @@
-import { Image } from "@chakra-ui/image";
-import { Box, Heading, Text } from "@chakra-ui/layout";
-import React from "react";
-import about from "../../images/about.svg";
-import "./About.css";
+import { Image } from '@chakra-ui/image';
+import { Box, Heading, Text } from '@chakra-ui/layout';
+import React from 'react';
+import './About.css';
 
 function About() {
   return (
-    <Box id="about" className="global-padding">
-      <Heading className="about-heading" as="h1" size="3xl">
+    <Box id='about' className='global-padding'>
+      <Heading className='about-heading' as='h1' size='3xl'>
         About Me
       </Heading>
-      <Box className="about">
-        <Box className="left-half-about">
-          <Image className="about-img" src={about} background="transparent" />
+      <Box className='about'>
+        <Box className='left-half-about'>
+          <Image
+            className='about-img'
+            src='https://ik.imagekit.io/anupmor302/about_lLOk9mnAo.svg'
+            background='transparent'
+          />
         </Box>
-        <Box className="right-half-about">
-          <Text className="about-details">
+        <Box className='right-half-about'>
+          <Text className='about-details'>
             Hi, my name is Anup Mor, I am a very passionate person and do
             everything with equal and high energy. I am curious by nature and
             try to learn at least one new thing every day. I am certified in
@@ -26,71 +29,71 @@ function About() {
             to solve real-world problems. Always looking for new ways to improve
             processes using ML and AI.
           </Text>
-          <Box className="tech">
-            <div className="inner-tech">
+          <Box className='tech'>
+            <div className='inner-tech'>
               <span
-                className="iconify tech-logo"
-                data-icon="logos:firebase"
-                data-inline="false"
+                className='iconify tech-logo'
+                data-icon='logos:firebase'
+                data-inline='false'
               ></span>
-              <p className="tech-title">Firebase</p>
+              <p className='tech-title'>Firebase</p>
             </div>
-            <div className="inner-tech">
+            <div className='inner-tech'>
               <span
-                className="iconify tech-logo"
-                data-icon="logos:nodejs-icon"
-                data-inline="false"
+                className='iconify tech-logo'
+                data-icon='logos:nodejs-icon'
+                data-inline='false'
               ></span>
-              <p className="tech-title">Node Js</p>
+              <p className='tech-title'>Node Js</p>
             </div>
-            <div className="inner-tech">
+            <div className='inner-tech'>
               <span
-                className="iconify tech-logo"
-                data-icon="logos:javascript"
-                data-inline="false"
+                className='iconify tech-logo'
+                data-icon='logos:javascript'
+                data-inline='false'
               ></span>
-              <p className="tech-title">JavaScript</p>
+              <p className='tech-title'>JavaScript</p>
             </div>
-            <div className="inner-tech">
+            <div className='inner-tech'>
               <span
-                className="iconify tech-logo"
-                data-icon="vscode-icons:file-type-html"
-                data-inline="false"
+                className='iconify tech-logo'
+                data-icon='vscode-icons:file-type-html'
+                data-inline='false'
               ></span>
-              <p className="tech-title">HTML</p>
+              <p className='tech-title'>HTML</p>
             </div>
-            <div className="inner-tech">
-              {" "}
+            <div className='inner-tech'>
+              {' '}
               <span
-                className="iconify tech-logo"
-                data-icon="vscode-icons:file-type-css"
-                data-inline="false"
+                className='iconify tech-logo'
+                data-icon='vscode-icons:file-type-css'
+                data-inline='false'
               ></span>
-              <p className="tech-title">CSS</p>
+              <p className='tech-title'>CSS</p>
             </div>
-            <div className="inner-tech">
+            <div className='inner-tech'>
               <span
-                className="iconify tech-logo"
-                data-icon="logos:python"
-                data-inline="false"
+                className='iconify tech-logo'
+                data-icon='logos:python'
+                data-inline='false'
               ></span>
-              <p className="tech-title">Python</p>
+              <p className='tech-title'>Python</p>
             </div>
-            <div className="inner-tech">
+            <div className='inner-tech'>
               <span
-                className="iconify tech-logo"
-                data-icon="logos:git-icon"
-                data-inline="false"
+                className='iconify tech-logo'
+                data-icon='logos:git-icon'
+                data-inline='false'
               ></span>
-              <p className="tech-title">Git</p>
+              <p className='tech-title'>Git</p>
             </div>
-            <div className="inner-tech">
+            <div className='inner-tech'>
               <span
-                className="iconify tech-logo"
-                data-icon="logos:tensorflow"
-                data-inline="false"
+                className='iconify tech-logo'
+                data-icon='logos:tensorflow'
+                data-inline='false'
               ></span>
-              <p className="tech-title">Tensorflow</p>
+              <p className='tech-title'>Tensorflow</p>
             </div>
           </Box>
         </Box>

@@ -1,27 +1,23 @@
-import cw from "../../images/cw.png";
-import stallion from "../../images/stallion.png";
-import sf from "../../images/script.webp";
-
 export const expData = [
   {
     id: 1,
-    title: "Co-Founder",
-    image: cw,
-    company: "Code Warriors",
-    url: "https://www.linkedin.com/in/anup-mor-81aa34183/",
+    title: 'Co-Founder',
+    image: 'https://ik.imagekit.io/anupmor302/cw_CsStK2mGh.png',
+    company: 'Code Warriors',
+    url: 'https://www.linkedin.com/in/anup-mor-81aa34183/',
   },
   {
     id: 2,
-    title: "Senior AI Intern",
-    image: stallion,
-    company: "Stallion Techmark",
-    url: "https://www.linkedin.com/in/anup-mor-81aa34183/",
+    title: 'Senior AI Intern',
+    image: 'https://ik.imagekit.io/anupmor302/stallion_jANUgNWJIi.png',
+    company: 'Stallion Techmark',
+    url: 'https://www.linkedin.com/in/anup-mor-81aa34183/',
   },
   {
     id: 3,
-    title: "Content Writer Lead",
-    image: sf,
-    company: "Script Foundation",
-    url: "https://www.linkedin.com/in/anup-mor-81aa34183/",
+    title: 'Content Writer Lead',
+    image: 'https://ik.imagekit.io/anupmor302/script_iZX2WkIaeS.webp',
+    company: 'Script Foundation',
+    url: 'https://www.linkedin.com/in/anup-mor-81aa34183/',
   },
 ];
